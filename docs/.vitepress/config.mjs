@@ -2,9 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [[
+    "link",
+    {
+      rel: "icon",
+      href: "/logo.png"
+    }
+  ]],
   title: "乔钶的技术之旅",
+  cleanUrls: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+    lastUpdated: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: '云原生', link: '/cloud-native' },
