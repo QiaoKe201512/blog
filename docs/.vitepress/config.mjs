@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "qiaoke的技术之旅",
-  description: "qiaoke的技术之旅",
+  title: "乔钶的技术之旅",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
