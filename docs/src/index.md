@@ -3,23 +3,10 @@
 layout: home
 
 hero:
-  name: "qiaoke的技术之旅"
-  text: "qiaoke的技术之旅"
-  tagline: My great project tagline
-  actions:
-    - theme: branda
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "乔钶的技术之旅"
+  tagline: 云原生 公有云 python 
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+
 ---
 
