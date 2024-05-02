@@ -7,7 +7,7 @@ hero:
   text: "qiaoke的技术之旅"
   tagline: My great project tagline
   actions:
-    - theme: brand
+    - theme: branda
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
