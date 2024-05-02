@@ -26,5 +26,5 @@ export default defineConfig({
     ],
   },
   srcDir: 'src',
-  base: '/repo/'
+  base: '/blog/'
 })
