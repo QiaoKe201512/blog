@@ -1,6 +1,5 @@
 ---
 layout: home
-
 hero:
   name: "乔钶的技术随笔"
 
