@@ -80,6 +80,10 @@ function monitor_sidebar() {
     {
       text: 'zabbix监控方式',
       link: '/monitor/zabbix-monitor-methods'
+    },
+    {
+      text: 'zabbix生产高可用部署',
+      link: '/monitor/zabbix-ha-deploy'
     }
   ]
 }
