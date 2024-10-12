@@ -84,6 +84,10 @@ function monitor_sidebar() {
     {
       text: 'zabbix生产高可用部署',
       link: '/monitor/zabbix-ha-deploy'
+    },
+    {
+      text: 'zabbix snmp监控',
+      link: '/monitor/zabbix-snmp'
     }
   ]
 }
