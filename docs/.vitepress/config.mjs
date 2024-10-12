@@ -86,7 +86,7 @@ function monitor_sidebar() {
       link: '/monitor/zabbix-ha-deploy'
     },
     {
-      text: 'zabbix snmp监控',
+      text: 'zabbixsnmp监控',
       link: '/monitor/zabbix-snmp'
     }
   ]
