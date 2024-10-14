@@ -10,6 +10,9 @@ export default defineConfig({
       customSearchQuery: chineseSearchOptimize
     })],
   },
+  head: [
+    ['link', { rel: 'icon',  type: "image/png", sizes: "64x64",href: '/blog/logo.png' }]
+  ],
   title: "乔钶的技术随笔",
   description: "SRE 云原生 公有云 DEVOPS",
   themeConfig: {
