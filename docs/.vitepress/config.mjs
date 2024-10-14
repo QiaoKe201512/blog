@@ -16,7 +16,7 @@ export default defineConfig({
   title: "乔钶的技术随笔",
   description: "SRE 云原生 公有云 DEVOPS",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    outline: [2, 4],
     nav: [
       { text: 'K8S', link: '/k8s/index' },
       { text: '公有云', link: '/cloud' },
@@ -69,6 +69,10 @@ function k8s_sidebar () {
     {
       text: 'Docker 网络',
       link: '/k8s/docker-network'
+    },
+    {
+      text: 'Kubernetes 高可用集群二进制部署',
+      link: '/k8s/kubernetes-bin-1.28.14'
     }
   ]
 }
