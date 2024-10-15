@@ -99,6 +99,10 @@ function monitor_sidebar() {
     {
       text: '监控数据采集方法论',
       link: '/monitor/monitor-methods'
+    },
+    {
+      text: '监控数据采集方式和原理',
+      link: '/monitor/monitor-data-collect'
     }
   ]
 }
