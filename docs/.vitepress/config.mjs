@@ -95,6 +95,10 @@ function monitor_sidebar() {
     {
       text: 'zabbix snmp监控',
       link: '/monitor/zabbix-snmp'
+    },
+    {
+      text: '监控数据采集方法论',
+      link: '/monitor/monitor-methods'
     }
   ]
 }
