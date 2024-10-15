@@ -26,7 +26,7 @@ USE 方法（Utilization, Saturation, Errors）是一种专注于监控系统资
 
 不同的监控对象有不同的侧重点。
 
-![image-20241012201105578](C:\Users\26302\AppData\Roaming\Typora\typora-user-images\image-20241012201105578.png)
+![image-20241012201105578](/image-20241012201105578.png)
 
 ##### 业务监控
 
