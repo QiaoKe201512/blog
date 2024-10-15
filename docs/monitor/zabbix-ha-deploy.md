@@ -1,4 +1,4 @@
-## 安装zabbix并启用高可用模式
+## 安装zabbix并启用高可用模式<Badge type="tip" text="zabbix" />
 
 ### 安装准备
 

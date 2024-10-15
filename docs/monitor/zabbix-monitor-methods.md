@@ -1,4 +1,4 @@
-## 配置zabbix监控
+## 配置zabbix监控<Badge type="tip" text="zabbix" />
 
 ### zabbix agent监控
 

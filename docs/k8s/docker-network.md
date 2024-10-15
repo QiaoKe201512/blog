@@ -2,7 +2,7 @@
 layout: doc
 title: docker 网络
 ---
-## Docker 网络<Badge type="info" text="docker" />
+## Docker 网络<Badge type="tip" text="docker" />
 
 网络架构越来越复杂，但只要抓住关键点，就可以在混乱中保持清晰的思考。
 

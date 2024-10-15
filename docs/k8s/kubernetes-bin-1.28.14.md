@@ -1,4 +1,4 @@
-## Kubernetes 1.28高可用集群二进制部署（基于containerd）<Badge type="info" text="k8s" />
+## Kubernetes 1.28高可用集群二进制部署（基于containerd）<Badge type="tip" text="k8s" />
 
 ### 一，集群环境准备
 

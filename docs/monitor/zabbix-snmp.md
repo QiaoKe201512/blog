@@ -1,4 +1,4 @@
-### Zabbix snmp 配置介绍
+### Zabbix snmp 配置介绍<Badge type="tip" text="zabbix" />
 
 SNMP 在很大程度上促进了统一监控所有设备，简单网络管理协议，主要用于网络设备监控。
 
