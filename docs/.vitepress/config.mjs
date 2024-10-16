@@ -21,7 +21,8 @@ export default defineConfig({
       { text: 'K8S', link: '/k8s/index' },
       { text: '公有云', link: '/cloud' },
       { text: 'DEVOPS', link: '/devops/index' },
-      { text: '监控', link: '/monitor/index' }
+      { text: '监控', link: '/monitor/index' },
+      { text: 'Linux', link: '/linux/index' }
     ],
 
     socialLinks: [
@@ -32,7 +33,8 @@ export default defineConfig({
       '/k8s/': k8s_sidebar(),
       '/devops/': devops_sidebar(),
       '/cloud/': cloud_sidebar(),
-      '/monitor/': monitor_sidebar()
+      '/monitor/': monitor_sidebar(),
+      '/linux/': linux_sidebar()
     }
   }
 })
@@ -45,6 +47,20 @@ function cloud_sidebar(){
     {
       text: '首页',
       link: '/cloud/index'
+    }
+  ]
+}
+
+function linux_sidebar(){
+
+  return [
+    {
+      text: '首页',
+      link: '/linux/index'
+    },
+    {
+      text: 'iptables 介绍',
+      link: '/linux/iptables-intro'
     }
   ]
 }
