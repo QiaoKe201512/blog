@@ -71,6 +71,10 @@ function devops_sidebar (){
     {
       text: '首页',
       link: '/devops/index'
+    },
+    {
+      text: 'python 模块化管理',
+      link: '/devops/python-module'
     }
   ]
 }
