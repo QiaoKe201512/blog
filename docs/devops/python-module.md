@@ -1,4 +1,4 @@
-### python 模块化管理
+### python 模块化管理<Badge type="tip" text="python" />
 
 #### 如何管理模块
 
