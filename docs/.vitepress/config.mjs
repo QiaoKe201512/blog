@@ -16,7 +16,7 @@ export default defineConfig({
   title: "乔钶的技术随笔",
   description: "SRE 云原生 公有云 DEVOPS",
   themeConfig: {
-    outline: [2, 4],
+    outline: [2, 7],
     nav: [
       { text: 'K8S', link: '/k8s/index' },
       { text: '公有云', link: '/cloud' },
