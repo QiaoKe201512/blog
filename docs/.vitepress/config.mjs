@@ -75,6 +75,10 @@ function devops_sidebar (){
     {
       text: 'python 模块化管理',
       link: '/devops/python-module'
+    },
+    {
+      text: 'Python 异常处理体系',
+      link: '/devops/python-exception-system'
     }
   ]
 }
