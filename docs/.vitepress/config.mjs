@@ -97,6 +97,10 @@ function k8s_sidebar () {
     {
       text: 'Kubernetes 高可用集群二进制部署',
       link: '/k8s/kubernetes-bin-1.28.14'
+    },
+    {
+      text: 'Kubernetes v1.30 配置安装 基于docker ubuntu22.04',
+      link: '/k8s/Kubernetes-v1.30-docker'
     }
   ]
 }
