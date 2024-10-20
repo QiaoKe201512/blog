@@ -16,6 +16,9 @@ hero:
   - theme: alt
     text: 监控
     link: /monitor/index
+  - theme: alt
+    text: Linux
+    link: /linux/index
 
 features:
   - icon:
@@ -34,5 +37,10 @@ features:
     details: prometheus zabbix
     icon:
       src: /prometheus.svg
+
+  - title: Linux
+    details: centos ubuntu
+    icon:
+      src: /linux.png
 ---
 
