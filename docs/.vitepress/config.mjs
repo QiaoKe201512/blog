@@ -47,6 +47,10 @@ function cloud_sidebar(){
     {
       text: '首页',
       link: '/cloud/index'
+    },
+    {
+      text: '阿里云SLB配置使用',
+      link: '/cloud/aliyun-slb'
     }
   ]
 }
