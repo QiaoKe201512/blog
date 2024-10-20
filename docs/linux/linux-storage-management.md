@@ -4,7 +4,7 @@
 
 ##### 1. 添加磁盘
 
-![image-20241020142016955](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020142016955.png)
+![image-20241020142016955](/image-20241020142016955.png)
 
 ##### 2. 检测磁盘
 
@@ -13,7 +13,7 @@
 lsblk | grep sdb 
 ```
 
-![image-20241020142933354](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020142933354.png)
+![image-20241020142933354](/image-20241020142933354.png)
 
 ##### 3. 磁盘分区
 
@@ -35,11 +35,11 @@ fdisk /dev/sdb
 
 **创建一个5G大小的主分区**
 
-![image-20241020144249721](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020144249721.png)
+![image-20241020144249721](/image-20241020144249721.png)
 
 **查看分区信息**
 
-![image-20241020144355849](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020144355849.png)
+![image-20241020144355849](/image-20241020144355849.png)
 
 ##### 4. 格式化
 
@@ -77,7 +77,7 @@ mkfs.ext4 /dev/sdb1
  mount /dev/sdb1 /data/k8s
 ```
 
-![image-20241020145355862](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020145355862.png)
+![image-20241020145355862](/image-20241020145355862.png)
 
 ##### 6. 配置自动挂载
 
@@ -91,9 +91,9 @@ UUID=7d4f3abc-d92f-4660-a9eb-472f225ed212  /data/k8s ext4 defaults 0 2
 
 ##### 1. LVM 关系图示
 
-![image-20241020153952745](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020153952745.png)
+![image-20241020153952745](/image-20241020153952745.png)
 
-![image-20241020154014304](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020154014304.png)
+![image-20241020154014304](/image-20241020154014304.png)
 
 ##### 2. 如何配置
 
@@ -110,7 +110,7 @@ sudo pvcreate /dev/sdb1
 sudo pvs
 ```
 
-![image-20241020162509366](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020162509366.png)
+![image-20241020162509366](/image-20241020162509366.png)
 
 **创建卷组（VG）**
 
@@ -119,7 +119,7 @@ sudo vgcreate myvg /dev/sdb1
 sudo vgs
 ```
 
-![image-20241020162611543](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020162611543.png)
+![image-20241020162611543](/image-20241020162611543.png)
 
 **创建逻辑卷（LV）**
 
@@ -128,7 +128,7 @@ sudo lvcreate -n mylv -L 50G myvg
 sudo lvs
 ```
 
-![image-20241020162735966](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020162735966.png)
+![image-20241020162735966](/image-20241020162735966.png)
 
 **格式化逻辑卷**
 
@@ -152,7 +152,7 @@ sudo pvcreate /dev/sdc
 sudo vgextend myvg /dev/sdc
 ```
 
-![image-20241020165046217](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020165046217.png)
+![image-20241020165046217](/image-20241020165046217.png)
 
  **扩展逻辑卷**
 
@@ -162,7 +162,7 @@ sudo vgextend myvg /dev/sdc
 sudo lvextend -L +10G /dev/myvg/mylv
 ```
 
-![image-20241020165150996](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020165150996.png)
+![image-20241020165150996](/image-20241020165150996.png)
 
 **扩展文件系统**
 
@@ -172,7 +172,7 @@ sudo resize2fs /dev/myvg/mylv
 df -h
 ```
 
-![image-20241020165414583](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241020165414583.png)
+![image-20241020165414583](/image-20241020165414583.png)
 
 
 
