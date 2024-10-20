@@ -61,6 +61,10 @@ function linux_sidebar(){
     {
       text: 'iptables 介绍',
       link: '/linux/iptables-intro'
+    },
+    {
+      text: 'Linux 存储管理 ubuntu22.04',
+      link: '/linux/linux-storage-management'
     }
   ]
 }
