@@ -69,6 +69,10 @@ function linux_sidebar(){
     {
       text: 'Linux 存储管理 ubuntu22.04',
       link: '/linux/linux-storage-management'
+    },
+    {
+      text: 'Linux 软件管理  ubuntu22.04',
+      link: '/linux/linux-software-manage-ubuntu'
     }
   ]
 }
