@@ -51,6 +51,10 @@ function cloud_sidebar(){
     {
       text: '阿里云SLB配置使用',
       link: '/cloud/aliyun-slb'
+    },
+    {
+      text: '浅析阿里云自动化运维体系',
+      link: '/cloud/aliyun-auto-ops-system'
     }
   ]
 }
