@@ -77,6 +77,10 @@ function linux_sidebar(){
     {
       text: 'Linux 软件管理  ubuntu22.04',
       link: '/linux/linux-software-manage-ubuntu'
+    },
+    {
+      text: 'Linux 权限管理体系',
+      link: '/linux/linux-permission-manage'
     }
   ]
 }
