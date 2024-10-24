@@ -99,7 +99,11 @@ function devops_sidebar (){
     {
       text: 'Python 异常处理体系',
       link: '/devops/python-exception-system'
-    }
+    },
+    {
+      text: 'Python 高性能编程',
+      link: '/devops/python-high-performance'
+    },
   ]
 }
 
